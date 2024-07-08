@@ -91,6 +91,7 @@ a {
   background-color: #4d5ae5;
 }
 
+.name-buttun:hover,
 .name-buttun:focus {
   background-color: #404bbf;
 }
