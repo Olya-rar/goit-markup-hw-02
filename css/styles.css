@@ -91,7 +91,7 @@ a {
   background-color: #4d5ae5;
 }
 
-.name-buttun:hover {
+.name-buttun:focus {
   background-color: #404bbf;
 }
 
@@ -121,10 +121,15 @@ a {
 .team-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
+}
+
+.team-item {
+  background-color: #ffffff;
 }
 
 .team-subtitle {
@@ -151,10 +156,11 @@ a {
 .portfolio-title {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.12;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .portfolio-subtitle {
